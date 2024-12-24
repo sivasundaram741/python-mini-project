@@ -24,15 +24,10 @@ guvi_selenium_automation/
 │   ├── __init__.py            # Marks this directory as a Python package
 ├── utils/
 │   ├── config.py              # Configuration for URLs, credentials, etc.
-│   ├── constants.py           # Constants used across the project
-│   ├── helpers.py             # Helper functions (e.g., data generation)
+│   ├── constants.py           # Constants used across the project          
 │   ├── __init__.py            # Marks this directory as a Python package
-├── drivers/
-│   ├── chromedriver.exe       # WebDriver for Chrome (or other browser drivers)
-├── requirements.txt           # Python dependencies
 ├── pytest.ini                 # Pytest configuration file
-├── conftest.py                # Shared fixtures for test setup
-├── README.md                  # Project documentation
+├── conftest.py                # Shared fixtures for test setup                
 ```
 
 ## Installation
@@ -44,11 +39,6 @@ guvi_selenium_automation/
 
 2. **Set Up Environment**:
    Ensure you have Python 3.8+ installed.
-
-3. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 4. **Download WebDriver**:
    - Download the appropriate WebDriver for your browser (e.g., ChromeDriver).
@@ -69,10 +59,6 @@ pytest -v
 - Run specific test file:
   ```bash
   pytest tests/test_login.py
-  ```
-- Generate test report:
-  ```bash
-  pytest --html=report.html
   ```
 
 ## Test Cases
